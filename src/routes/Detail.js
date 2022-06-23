@@ -27,6 +27,7 @@ function Detail() {
           id={detail.id}
           rating={detail.rating}
           download_count={detail.download_count}
+          coverImg={detail.medium_cover_image}
           runtime={detail.runtime}
           description_intro={detail.description_intro}
           year={detail.year}
